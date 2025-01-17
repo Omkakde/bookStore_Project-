@@ -1,0 +1,1269 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T08:23:44.425Z"}
+info: Connected to database. {"timestamp":"2025-01-16T08:23:44.865Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:27:09.031Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:27:43.852Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:27:49.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:27:54.643Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:27:54.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:28:18.618Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:28:18.847Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:30:18.654Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:30:33.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:31:19.036Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:31:19.280Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:31:54.077Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:32:19.990Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:32:47.866Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:33:08.796Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:33:19.062Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:34:45.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:35:37.032Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:35:37.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:36:36.680Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:36:37.339Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:36:48.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:37:14.221Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:37:14.503Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:37:17.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:38:18.040Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:38:18.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:38:34.394Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:38:34.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:38:37.291Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:38:37.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:38:49.138Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:38:49.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:38:58.892Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:38:59.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:39:04.233Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:39:04.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:39:30.178Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:39:30.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:39:42.220Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:39:42.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:39:53.916Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:39:54.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:40:53.874Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:40:54.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:46:50.280Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:46:50.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:46:54.242Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:46:54.521Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:47:26.979Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:48:27.232Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:49:26.113Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:50:07.098Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:51:35.056Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:52:03.215Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:75:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3) 
+    url - /api/v1/books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T10:52:34.365Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:53:06.415Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:56:51.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:57:50.609Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:57:50.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:57:55.045Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:57:55.322Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T10:57:56.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:58:13.696Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:58:13.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:58:35.495Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:58:35.763Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:58:42.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:58:47.203Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:58:47.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:59:06.795Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:07.042Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:13.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:59:17.854Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:18.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:59:20.142Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:20.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T10:59:39.254Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:39.720Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:43.456Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:48.330Z"}
+info: Connected to database. {"timestamp":"2025-01-16T10:59:58.400Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:01:44.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:01:50.154Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:01:50.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:02:01.808Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:02:02.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:02:06.416Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:02:06.689Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:02:12.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:02:31.096Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:02:31.354Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:06:08.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:06:13.523Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:06:13.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:06:30.890Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:06:31.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:06:36.242Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:06:36.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:06:46.140Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:06:46.385Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:07:24.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:07:34.814Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:07:35.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:07:37.635Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:07:37.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:10:55.945Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:10:56.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:10:58.274Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:10:58.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:11:04.134Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:04.357Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:19.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:11:24.424Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:24.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:11:26.908Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:27.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:11:39.587Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:39.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:11:41.694Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:42.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:11:44.503Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:11:45.109Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:12:15.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:12:38.050Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:12:38.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:12:43.160Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:12:43.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:13:19.016Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:13:19.430Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:13:20.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:15:16.862Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:15:17.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:16:01.723Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:16:01.932Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:16:07.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:17:27.827Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:17:28.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:17:30.639Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:17:30.952Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:17:31.790Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:17:50.150Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:17:57.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:18:01.762Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:18:02.060Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:18:25.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T11:20:05.291Z"}
+info: Connected to database. {"timestamp":"2025-01-16T11:20:05.552Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T11:20:11.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:32:26.308Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:32:26.611Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T12:32:34.396Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:33:24.236Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:33:24.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:33:27.419Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:33:27.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:33:34.333Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:33:34.645Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T12:33:36.771Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:35:40.276Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:36:03.342Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:36:08.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:36:12.984Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:36:13.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:36:20.717Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:36:20.967Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T12:36:24.779Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:38:29.628Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:38:35.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:38:53.844Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:38:54.392Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T12:38:58.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:39:10.963Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:39:11.181Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T12:39:29.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:41:10.751Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:41:11.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:43:49.161Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:43:49.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:43:54.806Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:43:55.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:43:59.358Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:43:59.764Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:58
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T12:44:02.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:45:04.081Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:45:04.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:45:07.631Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:45:07.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:45:15.423Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:45:15.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:45:59.788Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:46:00.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:46:32.748Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:46:33.078Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:47:47.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:47:58.460Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:47:58.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:48:44.589Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:48:44.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:49:00.061Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:49:00.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:49:25.513Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:49:25.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:49:28.717Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:49:28.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:49:33.047Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:49:33.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:49:47.766Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:49:48.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:49:53.734Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:49:53.983Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:51:14.931Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:51:15.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:51:18.355Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:51:18.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:51:20.669Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:51:20.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:51:34.632Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:51:35.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:51:37.447Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:51:37.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:51:43.757Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:51:44.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:53:04.252Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:53:04.513Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:24.073Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:24.309Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:29.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:31.722Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:31.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:35.946Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:36.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:42.554Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:43.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:46.765Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:47.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:53.758Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:53.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:56:57.754Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:56:58.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T12:57:35.173Z"}
+info: Connected to database. {"timestamp":"2025-01-16T12:57:35.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:00:37.669Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:00:37.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:00:43.851Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:00:44.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:00:46.696Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:00:46.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:00:54.736Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:00:55.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:03:03.032Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:03:03.277Z"}
+error: 
+      status - 500
+      message - Failed to create Book 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2025-01-16T13:03:07.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:08:42.593Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:08:42.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:11:34.584Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:11:34.834Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:11:40.575Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:11:47.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:11:52.902Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:11:53.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:12:07.448Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:12:07.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:12:46.497Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:12:46.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:13:11.212Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:13:11.569Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:13:21.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:13:25.647Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:13:25.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:13:34.316Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:13:34.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:13:45.935Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:13:46.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:14:32.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:14:34.426Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:14:34.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:14:36.686Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:14:36.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:14:41.418Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:14:41.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:14:47.171Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:14:47.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:15:23.581Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:15:23.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:16:19.119Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:16:19.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:19:08.088Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:19:08.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:19:22.473Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:19:22.729Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:19:25.351Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:19:25.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:19:29.810Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:19:30.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:23:10.225Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:23:10.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:23:24.254Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:23:24.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:23:44.536Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:23:45.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:23:48.905Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:23:49.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:23:56.315Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:23:56.583Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:24:01.843Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:24:02.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:24:03.966Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:24:04.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:24:32.076Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:24:32.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:29:06.529Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:29:06.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T13:29:11.018Z"}
+info: Connected to database. {"timestamp":"2025-01-16T13:29:11.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:34:51.983Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:34:53.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:43:07.677Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:43:08.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:44:17.530Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:44:17.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:44:21.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:44:24.226Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:44:24.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:44:26.949Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:44:27.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:44:30.727Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:44:30.939Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:46:29.758Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:46:29.954Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:46:36.990Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:46:42.074Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:46:47.095Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:46:55.412Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:47:07.577Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:47:12.385Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:47:17.485Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:47:22.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:47:26.679Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:47:26.905Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:77:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:52)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:47:35.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:48:06.917Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:48:07.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:48:09.064Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:48:09.370Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:52)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:48:12.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:49:18.673Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:49:18.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:49:22.252Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:49:22.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:49:30.231Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:49:30.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:49:32.082Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:49:32.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:49:36.474Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:49:36.676Z"}
+error: 
+    status - 500 
+    message - Error: Error: Admin user ID is required
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:49:45.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:50:07.448Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:50:07.687Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot destructure property 'id' of 'req.body.id' as it is undefined.
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:50:09.159Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:50:20.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:50:24.843Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:50:25.087Z"}
+error: 
+    status - 500 
+    message - Error: Error: Admin user ID is required
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:50:34.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:50:54.422Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:50:54.674Z"}
+error: 
+    status - 500 
+    message - Error: Error: Admin user ID is required
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:50:55.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:51:04.495Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:51:04.733Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:51:05.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:52:22.604Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:52:22.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:52:24.854Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:52:25.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:52:27.057Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:52:27.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:52:31.584Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:52:31.794Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:52:33.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:52:53.005Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:52:53.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:02.344Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:02.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:05.190Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:05.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:07.432Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:07.613Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:11.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:16.214Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:16.444Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:53:24.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:41.809Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:42.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:47.404Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:47.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:53.725Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:53.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:53:58.414Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:53:58.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:54:01.654Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:54:01.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:54:08.757Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:54:09.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:54:11.172Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:54:11.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:56:29.759Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:56:30.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:56:44.122Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:56:44.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:56:45.935Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:56:46.164Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:47)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:56:51.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:57:26.807Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:57:26.987Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:47)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:57:32.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:59:03.303Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:59:03.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:59:12.494Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:59:12.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:59:18.604Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:59:18.815Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:51)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:69:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:59:21.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T16:59:43.768Z"}
+info: Connected to database. {"timestamp":"2025-01-16T16:59:43.954Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:51)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:70:38)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T16:59:46.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:00:16.063Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:00:16.329Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:00:59.168Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:00:59.529Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:22.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:01:26.321Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:26.562Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:28.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:01:33.492Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:33.752Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:37.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:01:41.233Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:41.427Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:44.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:01:48.977Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:01:49.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:02:07.288Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:02:07.513Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:07:54.399Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:07:54.606Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:72:51)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T17:07:58.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:08:55.738Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:08:55.926Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:72:51)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T17:09:00.810Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:72:51)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T17:09:28.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:10:21.013Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:10:21.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:10:24.009Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:10:24.232Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:10:27.222Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:10:27.485Z"}
+error: 
+    status - 500 
+    message - Error: Error: Cannot read properties of undefined (reading 'id')
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:76:15)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\services\book.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:27:12)
+    at bookServices.updateBookById (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:56:43)
+    at bookControllers.<anonymous> (D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:72:51)
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\controllers\book.controller.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/books/20/updatePrice 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2025-01-16T17:10:30.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:11:28.065Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:11:28.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:13:46.897Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:13:47.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:14:07.804Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:14:08.016Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:14:23.510Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:14:23.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:14:26.019Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:14:26.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:14:33.022Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:14:33.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:14:37.883Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:14:38.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:12.928Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:13.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:16.724Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:16.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:19.712Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:19.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:21.931Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:22.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:25.985Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:26.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:28.516Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:28.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:33.656Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:33.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:36.090Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:36.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:54.321Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:54.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:15:58.830Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:15:59.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:16:00.942Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:16:01.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:16:05.407Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:16:05.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:17:40.809Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:17:41.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:18:06.766Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:06.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:18:29.181Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:29.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:18:33.004Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:33.208Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:37.030Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:41.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:18:46.210Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:46.404Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:48.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:18:53.106Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:53.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:18:59.437Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:18:59.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:19:06.965Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:19:07.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:19:13.217Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:19:13.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:46:14.133Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:46:14.547Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:48:02.869Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:48:19.318Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:48:29.204Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:50:14.590Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:50:19.080Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:50:26.008Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:50:38.940Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:50:39.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:50:45.526Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:50:45.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:50:47.892Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:50:48.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:51:22.018Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:51:22.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:51:24.382Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:51:24.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:51:26.835Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:51:27.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:51:30.797Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:51:30.968Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:51:32.424Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:51:32.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:51:54.311Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:51:54.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:00.171Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:00.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:04.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:06.136Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:06.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:11.795Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:12.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:18.488Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:18.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:26.082Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:26.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:33.553Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:33.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:40.105Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:40.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:43.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:44.732Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:44.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:47.202Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:47.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:50.361Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:50.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:54.178Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:54.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:52:57.043Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:52:57.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:53:01.525Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:53:01.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T17:59:01.244Z"}
+info: Connected to database. {"timestamp":"2025-01-16T17:59:01.417Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:06:02.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:08:12.612Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:08:12.932Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:08:27.537Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:08:34.237Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:09:56.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:10:01.502Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:10:01.702Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:10:06.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:10:10.422Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:10:10.618Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:10:18.154Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:10:22.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:10:26.243Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:10:26.424Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:11:37.218Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:13:18.676Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:19:17.723Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:20:20.231Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:22:27.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:22:31.238Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:22:31.440Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:22:35.996Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:22:40.515Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:22:44.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:22:51.165Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:22:51.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:23:31.324Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:23:31.632Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:23:35.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:23:58.160Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:23:58.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:24:04.837Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:24:05.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:28:36.717Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:28:36.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-16T18:29:16.656Z"}
+info: Connected to database. {"timestamp":"2025-01-16T18:29:16.846Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:807:19)
+    at SMTPConnection._setEnvelope (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1045:34)
+    at SMTPConnection.send (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:1600:9)
+    at SMTPConnection.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:991:20)
+    at SMTPConnection._onData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:772:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\backendWorkSpace\ebookstore\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-16T18:29:28.573Z"}
