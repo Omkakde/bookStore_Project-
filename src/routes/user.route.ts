@@ -1,12 +1,12 @@
 import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
-import userValidator from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
+import { UserValidator } from './../validators/user.validator';
 
 class UserRoutes {
   private UserController = new userController();
   private router = express.Router();
-  private UserValidator = new userValidator();
+  private UserValidator = new UserValidator();
 
   constructor() {
     this.routes();
@@ -14,12 +14,11 @@ class UserRoutes {
 
   private routes = () => {
 
-  
-    this.router.post('/',this.UserController.newUser);
-    this.router.post('/login', this.UserController.login);
-    this.router.post('/refreshtoken',this.UserController.refreshToken);
-    this.router.post('/forgotpassword',this.UserController.forgotPass);
-    this.router.post('/resetpassword',userAuth,this.UserController.resetPass);
+    this.router.post('/',this.UserValidator.registrationValid,this.UserController.newUser);
+    this.router.post('/login',this.UserValidator.loginValid, this.UserController.login);
+    this.router.post('/refreshtoken',this.UserValidator.refreshTokenValid,this.UserController.refreshToken);
+    this.router.post('/forgotpassword',this.UserValidator.forgotPassValid,this.UserController.forgotPass);
+    this.router.post('/resetpassword',this.UserValidator.resetPassValid,userAuth,this.UserController.resetPass);
 
 
     

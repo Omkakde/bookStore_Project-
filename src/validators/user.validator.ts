@@ -1,17 +1,65 @@
-import Joi from '@hapi/joi';
-import { Request, Response, NextFunction } from 'express';
+import Joi from "@hapi/joi";
+import { Request, Response, NextFunction } from "express";
 
-class UserValidator {
-  public newUser = (req: Request, res: Response, next: NextFunction): void => {
-    const schema = Joi.object({
-      name: Joi.string().min(2).required()
-    });
-    const { error } = schema.validate(req.body);
-    if (error) {
-      next(error);
+export class UserValidator {
+    public registrationValid(req: Request, res: Response, next: NextFunction) {
+        const schema = Joi.object({
+            name: Joi.string().required(),
+            email: Joi.string().required(),
+            phone: Joi.string().required().length(10),
+            role: Joi.string().required(),
+            password: Joi.string().required(),
+        });
+        const { error } = schema.validate(req.body);
+        if (error) {
+            throw error;
+        }
+        next();
+
     }
-    next();
-  };
-}
 
-export default UserValidator;
+    public loginValid(req: Request, res: Response, next: NextFunction) {
+        const schema = Joi.object({
+            email: Joi.string().required(),
+            password: Joi.string().required()
+        });
+        const {error} = schema.validate(req.body);
+        if(error){
+            throw error;
+        }
+        next();
+    }
+    
+    public refreshTokenValid(req: Request, res: Response, next: NextFunction) {
+        const schema = Joi.object({
+            refreshtoken: Joi.string().required()
+        });
+        const {error} = schema.validate(req.body);
+        if(error){
+            throw error;
+        }
+        next();
+    }
+
+    public forgotPassValid(req: Request, res: Response, next: NextFunction) {
+        const schema = Joi.object({
+            email: Joi.string().required()
+        });
+        const {error} = schema.validate(req.body);
+        if(error){
+            throw error;
+        }
+        next();
+    }
+
+    public resetPassValid(req: Request, res: Response, next: NextFunction) {
+        const schema = Joi.object({
+            newPassword: Joi.string().required()
+        });
+        const {error} = schema.validate(req.body);
+        if(error){
+            throw error;
+        }
+        next();
+    }
+}
