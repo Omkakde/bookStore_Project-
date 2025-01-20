@@ -21,7 +21,7 @@ class UserService {
       }
   
       return {
-        ...data.dataValues,
+
         message: 'Registration successful',
       };
     } catch (error) {

@@ -759,3 +759,183 @@ info: ::1 - - [18/Jan/2025:06:52:27 +0000] "GET /api/v1/cart/get-cart-items HTTP
 
 info: ::1 - - [18/Jan/2025:06:55:02 +0000] "DELETE /api/v1/cart/2/remove_cart_item HTTP/1.1" 500 77 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [19/Jan/2025:13:55:26 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:13:55:33 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:25:28 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:25:32 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:26:11 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:26:15 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:28:52 +0000] "GET /api/v1/books/2 HTTP/1.1" 500 77 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:30:05 +0000] "GET /api/v1/books/2 HTTP/1.1" 500 77 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:32:15 +0000] "GET /api/v1/books/2 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:33:05 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:33:09 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:34:12 +0000] "GET /api/v1/books/4 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:35:33 +0000] "GET /api/v1/books/4 HTTP/1.1" 500 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:36:18 +0000] "GET /api/v1/books/4 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:38:14 +0000] "GET /api/v1/books/4 HTTP/1.1" 200 169 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:38:23 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:38:28 +0000] "GET /api/v1/books/1 HTTP/1.1" 200 1152 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:39:15 +0000] "GET /api/v1/books/1 HTTP/1.1" 200 1152 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:06:58:06 +0000] "POST /api/v1/users/ HTTP/1.1" 201 344 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:00:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 490 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:00:35 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7191 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:00:54 +0000] "GET /api/v1/books/1 HTTP/1.1" 200 1242 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:08:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 518 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:09:10 +0000] "POST /api/v1/books/ HTTP/1.1" 201 305 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:09:47 +0000] "PUT /api/v1/books/20/updatePrice HTTP/1.1" 500 61 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:10:02 +0000] "PUT /api/v1/books/26/updatePrice HTTP/1.1" 200 43 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:10:45 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:11:02 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 204 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:11:18 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 229 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:11:41 +0000] "DELETE /api/v1/cart/4/remove_cart_item HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:11:50 +0000] "DELETE /api/v1/cart/4/remove_cart_item HTTP/1.1" 200 53 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:12:18 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 204 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:12:32 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 229 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:13:06 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 207 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:13:12 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 207 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:13:19 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 207 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:13:57 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 229 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:29:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 492 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:07:29:37 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 386 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:03:55 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 229 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:04:08 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 229 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:16:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 492 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:17:03 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 386 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:18:20 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:18:38 +0000] "POST /api/v1/cart/20/add_To_Cart HTTP/1.1" 201 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:18:50 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 544 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:19:48 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:19:57 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 200 262 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:20:28 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 544 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:20:55 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 200 263 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:21:04 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 546 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:21:14 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 546 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:21:46 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 200 263 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:22:08 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7364 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:27:05 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 545 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:30:07 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 528 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:31:10 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 207 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:31:17 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 208 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:31:33 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 531 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:32:00 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 208 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:32:11 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 207 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:33:01 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 264 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:33:09 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 531 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:33:47 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 531 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:35:07 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 273 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:35:14 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 531 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:39:22 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 263 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:44:59 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 531 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:45:09 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 260 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:45:17 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 260 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:46:06 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 529 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:46:21 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 200 259 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:47:03 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 529 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:48:50 +0000] "DELETE /api/v1/cart/3/remove_cart_item HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:58:22 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 544 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:58:53 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 219 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:59:02 +0000] "POST /api/v1/cart/578/add_To_Cart HTTP/1.1" 500 81 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:09:59:17 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 695 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:02:13 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7364 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:12:11 +0000] "POST /api/v1/cart/20/add_To_Cart HTTP/1.1" 201 223 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:12:22 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 698 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:15:23 +0000] "POST /api/v1/cart/20/add_To_Cart HTTP/1.1" 201 224 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:20:24 +0000] "POST /api/v1/cart/20/add_To_Cart HTTP/1.1" 201 216 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:22:36 +0000] "GET /api/v1/books/20 HTTP/1.1" 200 266 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:24:35 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 696 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:26:00 +0000] "POST /api/v1/cart/20/add_To_Cart HTTP/1.1" 201 216 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:26:29 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 696 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:48:29 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 718 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:50:16 +0000] "POST /api/v1/cart/4/add_To_Cart HTTP/1.1" 201 215 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Jan/2025:10:50:21 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 719 "-" "PostmanRuntime/7.43.0"
+

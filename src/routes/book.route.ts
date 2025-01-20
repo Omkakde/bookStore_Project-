@@ -1,11 +1,12 @@
 import express, { Router, IRouter } from 'express';
 import bookControllers from '../controllers/book.controller';
 import { userAuth,isAdmin } from '../middlewares/auth.middleware';
+import redisCache from './../middlewares/redis.middleware';
 
 class bookRoutes {
     private bookController = new bookControllers();
     private router = express.Router();
-
+    private redisCache = new redisCache();
     constructor() {
         this.routes();
     }
@@ -13,7 +14,7 @@ class bookRoutes {
     public routes = () => {
 
         this.router.get('/', this.bookController.getAll);  
-        this.router.get('/:id', this.bookController.getByBookId);  
+        this.router.get('/:id',this.redisCache.getBookById, this.bookController.getByBookId);  
         this.router.delete('/id', userAuth, isAdmin,this.bookController.deleteBook);
         this.router.post('/',userAuth, isAdmin,this.bookController.addBook);
         this.router.put('/:id/updatePrice',userAuth, isAdmin,this.bookController.updatePrice);
