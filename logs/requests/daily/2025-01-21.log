@@ -104,3 +104,113 @@ info: ::1 - - [21/Jan/2025:05:20:25 +0000] "POST /api/v1/wishlist/3/addBook HTTP
 
 info: ::1 - - [21/Jan/2025:05:20:33 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 744 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [21/Jan/2025:06:33:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 492 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:33:21 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7320 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:33:28 +0000] "GET /api/v1/books/20 HTTP/1.1" 200 266 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:33:48 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:34:32 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 875 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:34:55 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 114 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:14 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 876 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:34 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 114 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:39 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 877 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:59 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 877 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:36:10 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 114 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:36:15 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 876 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:41:26 +0000] "DELETE /api/v1/cart/3/remove_cart_item HTTP/1.1" 200 89 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:47:51 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:47:52 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:47:53 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:47:53 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:50:39 +0000] "GET /api/v1 HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:53:19 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:25 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:31 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:37 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:39 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:07 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:16 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:17 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:50 +0000] "GET /docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:56 +0000] "GET /docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:01:00 +0000] "GET /docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:49 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:52 +0000] "GET /docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:52 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 19165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:52 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 200 152072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:53 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230007 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:56 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 200 1426050 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:56 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:25 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 19393 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:22 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:11:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:11:49 +0000] "GET /api/v1/books HTTP/1.1" 200 7320 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:12:13 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 301 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:20:22 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 744 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:07:20:38 +0000] "POST /api/v1/wishlist/3/addBook HTTP/1.1" 200 64 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:07:20:51 +0000] "DELETE /api/v1/wishlist/3/removeBook HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:07:20:58 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 711 "-" "PostmanRuntime/7.43.0"
+

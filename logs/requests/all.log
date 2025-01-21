@@ -1045,3 +1045,152 @@ info: ::1 - - [21/Jan/2025:05:20:25 +0000] "POST /api/v1/wishlist/3/addBook HTTP
 
 info: ::1 - - [21/Jan/2025:05:20:33 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 744 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [21/Jan/2025:06:33:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 492 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:33:21 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7320 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:33:28 +0000] "GET /api/v1/books/20 HTTP/1.1" 200 266 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:33:48 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:34:32 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 875 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:34:55 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 114 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:14 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 876 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:34 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 114 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:39 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 877 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:35:59 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 877 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:36:10 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 200 114 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:36:15 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 876 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:41:26 +0000] "DELETE /api/v1/cart/3/remove_cart_item HTTP/1.1" 200 89 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:06:47:51 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:47:52 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:47:53 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:47:53 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:50:39 +0000] "GET /api/v1 HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:53:19 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:25 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:31 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:37 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:06:59:39 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:07 +0000] "GET /docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:16 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:17 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:50 +0000] "GET /docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:00:56 +0000] "GET /docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:01:00 +0000] "GET /docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:49 +0000] "GET /api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:52 +0000] "GET /docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:52 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 19165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:52 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 200 152072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:53 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230007 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:56 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 200 1426050 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:03:56 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:24 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:05:25 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 19393 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:21 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:06:22 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:11:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:11:49 +0000] "GET /api/v1/books HTTP/1.1" 200 7320 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:12:13 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 301 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:07:20:22 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 744 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:07:20:38 +0000] "POST /api/v1/wishlist/3/addBook HTTP/1.1" 200 64 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:07:20:51 +0000] "DELETE /api/v1/wishlist/3/removeBook HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:07:20:58 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 711 "-" "PostmanRuntime/7.43.0"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":126521,"external":3639788,"heapTotal":32043008,"heapUsed":30638328,"rss":69959680},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":126521,"external":3639788,"heapTotal":32043008,"heapUsed":30679752,"rss":69971968},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":126521,"external":3639788,"heapTotal":32043008,"heapUsed":30701520,"rss":69976064},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":126521,"external":3639788,"heapTotal":32043008,"heapUsed":30723552,"rss":69980160},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":126521,"external":3639788,"heapTotal":32043008,"heapUsed":30745432,"rss":69984256},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30767360,"rss":70000640},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30789112,"rss":70004736},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30810800,"rss":70008832},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30832560,"rss":70021120},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30854328,"rss":70037504},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30876432,"rss":70037504},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30898376,"rss":70037504},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.687},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":134713,"external":3647980,"heapTotal":32043008,"heapUsed":30920256,"rss":70037504},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
