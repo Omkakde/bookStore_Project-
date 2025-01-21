@@ -7735,3 +7735,20 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2025-01-21T11:53:15.904Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3) 
+    url - /api/v1/order/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T12:13:18.157Z"}

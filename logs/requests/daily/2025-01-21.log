@@ -248,3 +248,37 @@ info: ::1 - - [21/Jan/2025:11:51:50 +0000] "GET /api/v1/books/ HTTP/1.1" 500 91 
 
 info: ::1 - - [21/Jan/2025:11:53:15 +0000] "GET /api/v1/books/ HTTP/1.1" 500 91 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [21/Jan/2025:11:55:59 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7364 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:56:07 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7320 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:56:48 +0000] "POST /api/v1/order HTTP/1.1" 500 100 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:56:54 +0000] "POST /api/v1/cart/24/add_To_Cart HTTP/1.1" 201 220 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:56:59 +0000] "POST /api/v1/order HTTP/1.1" 200 203 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:57:37 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7364 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:57:44 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7320 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:11:59:30 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7320 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:12:00:15 +0000] "GET /api/v1/order/ HTTP/1.1" 200 627 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:12:02:43 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 711 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [21/Jan/2025:12:12:22 +0000] "GET /docs HTTP/1.1" 301 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:12:12:22 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:12:12:23 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 22701 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:12:12:23 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:12:12:23 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:12:12:23 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [21/Jan/2025:12:13:18 +0000] "POST /api/v1/order/ HTTP/1.1" 500 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+

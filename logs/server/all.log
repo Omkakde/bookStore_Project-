@@ -9458,3 +9458,88 @@ info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:51.430Z"}
 info: connected to redis {"timestamp":"2025-01-21T11:55:51.502Z"}
 info: Connected to database. {"timestamp":"2025-01-21T11:55:51.673Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:54.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:54.009Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:54.079Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:54.234Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:06:02.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:06:02.067Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:06:02.142Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:06:02.360Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:07:46.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:07:46.796Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:07:46.868Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:07:47.029Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:07:56.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:07:56.727Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:07:56.802Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:07:56.933Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:08:07.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:08:07.746Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:08:07.831Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:08:07.991Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:08:16.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:08:16.814Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:08:16.898Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:08:17.062Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:08:30.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:08:30.159Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:08:30.381Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:08:30.523Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:08:38.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:08:38.701Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:08:38.777Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:08:38.939Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:08:44.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:08:44.324Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:08:44.403Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:08:44.557Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:08:48.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:08:48.443Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:08:48.579Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:08:48.894Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:09:19.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:09:19.155Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:09:19.222Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:09:19.378Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:09:27.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:09:27.459Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:09:27.526Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:09:27.683Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:09:34.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:09:34.819Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:09:34.883Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:09:35.051Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:09:39.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:09:39.284Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:09:39.348Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:09:39.523Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:11:18.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:11:18.294Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:11:18.348Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:11:18.550Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:11:22.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:11:22.415Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:11:22.473Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:11:22.616Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T12:12:13.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T12:12:13.034Z"}
+info: connected to redis {"timestamp":"2025-01-21T12:12:13.096Z"}
+info: Connected to database. {"timestamp":"2025-01-21T12:12:13.260Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3) 
+    url - /api/v1/order/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T12:13:18.157Z"}
