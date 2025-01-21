@@ -28,26 +28,28 @@ class bookServices{
 
     public getAllBooks = async () => {
         try {
-            const books = await this.Book.findAll();
-            if (!books || books.length === 0) {
-                throw new Error('No books found in the database');
-            }
-            await redisClient.del(this.cacheKey);
-
-        for (const book of books) {
-            await redisClient.lPush(this.cacheKey, JSON.stringify(book));
+          const books = await this.Book.findAll(); 
+          if (!books || books.length === 0) {
+            throw new Error('No books found in the database');
+          }
+          await redisClient.del(this.cacheKey);
+      
+          for (const book of books) {
+            await redisClient.lPush(this.cacheKey, JSON.stringify(book)); 
         }
-            return {
-                success: true,
-                data: books,
-                message: 'Books retrieved successfully from database',
-                source: 'Database',
-            };
+      
+          return {
+            success: true,
+            data: books,
+            message: 'Books retrieved successfully from database',
+            source: 'Database',
+          };
         } catch (error) {
-            throw new Error('An error occurred while fetching books from the database');
+          console.error('Error in getAllBooks:', error.message); 
+          throw new Error('An error occurred while fetching books from the database'); 
         }
-    };
-
+      };
+      
     public getByBookId = async (bookId: string) => {
         try {
             const book = await this.Book.findOne({ where: { id: bookId } });

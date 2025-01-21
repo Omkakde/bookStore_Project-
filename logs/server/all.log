@@ -9318,3 +9318,143 @@ error:
 error: uncaughtException: read ECONNRESET
 Error: read ECONNRESET
     at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Tue Jan 21 2025 12:55:17 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":266616.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":126497,"external":3639724,"heapTotal":32043008,"heapUsed":30601248,"rss":69931008},"pid":9600,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","timestamp":"2025-01-21T07:25:17.936Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T10:40:16.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T10:40:16.878Z"}
+error: uncaughtException: Connection timeout
+Error: Connection timeout
+    at Socket.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:633:28)
+    at Socket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:591:8)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) {"date":"Tue Jan 21 2025 16:10:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":278315.609},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":268673,"external":3444286,"heapTotal":72675328,"heapUsed":42252688,"rss":109359104},"pid":14048,"uid":null,"version":"v20.17.0"},"stack":"Error: Connection timeout\n    at Socket.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:177:124)\n    at Object.onceWrapper (node:events:633:28)\n    at Socket.emit (node:events:519:28)\n    at Socket._onTimeout (node:net:591:8)\n    at listOnTimeout (node:internal/timers:581:17)\n    at processTimers (node:internal/timers:519:7)","timestamp":"2025-01-21T10:40:16.915Z","trace":[{"column":124,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":null,"line":177,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":8,"file":"node:net","function":"Socket._onTimeout","line":591,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":581,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":519,"method":null,"native":false}]}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:21:58.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:21:58.524Z"}
+error: uncaughtException: Connection timeout
+Error: Connection timeout
+    at Socket.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:633:28)
+    at Socket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:591:8)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) {"date":"Tue Jan 21 2025 16:51:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":280817.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":268674,"external":3446018,"heapTotal":82374656,"heapUsed":63836120,"rss":120430592},"pid":12636,"uid":null,"version":"v20.17.0"},"stack":"Error: Connection timeout\n    at Socket.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:177:124)\n    at Object.onceWrapper (node:events:633:28)\n    at Socket.emit (node:events:519:28)\n    at Socket._onTimeout (node:net:591:8)\n    at listOnTimeout (node:internal/timers:581:17)\n    at processTimers (node:internal/timers:519:7)","timestamp":"2025-01-21T11:21:58.597Z","trace":[{"column":124,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":null,"line":177,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":8,"file":"node:net","function":"Socket._onTimeout","line":591,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":581,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":519,"method":null,"native":false}]}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:22:47.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:22:47.192Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:22:47.273Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:22:47.379Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:43:48.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:43:48.772Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:43:48.883Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:43:49.347Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:47:47.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:47:47.708Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:47:47.771Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:47:47.917Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:49:02.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:49:02.700Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:49:02.791Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:49:02.951Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:49:09.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:49:09.379Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:49:09.444Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:49:09.615Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:49:12.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:49:12.802Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:49:12.862Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:49:13.004Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while fetching books from the database
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:47:19)
+    at Generator.throw (<anonymous>)
+    at rejected (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-21T11:50:00.169Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while fetching books from the database
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:47:19)
+    at Generator.throw (<anonymous>)
+    at rejected (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-21T11:50:09.194Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:51:46.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:51:46.611Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:51:46.676Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:51:46.818Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while fetching books from the database
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:47:19)
+    at Generator.throw (<anonymous>)
+    at rejected (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-21T11:51:50.425Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:52:26.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:52:26.983Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:52:27.044Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:52:27.198Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:52:33.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:52:33.514Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:52:33.586Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:52:33.729Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while fetching books from the database
+    at bookServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:47:19)
+    at Generator.throw (<anonymous>)
+    at rejected (D:\backendWorkSpace\ebookstore\src\services\book.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-21T11:53:15.904Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:54:57.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:54:57.317Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:54:57.400Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:54:57.601Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:00.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:00.820Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:00.890Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:01.031Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:03.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:03.489Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:03.559Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:03.700Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:07.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:07.406Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:07.483Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:07.617Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:25.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:25.884Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:25.960Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:26.148Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:32.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:32.435Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:32.529Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:32.703Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:39.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:39.356Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:39.467Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:39.658Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:45.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:45.575Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:45.659Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:45.813Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:48.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:48.468Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:48.549Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:48.718Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T11:55:51.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T11:55:51.430Z"}
+info: connected to redis {"timestamp":"2025-01-21T11:55:51.502Z"}
+info: Connected to database. {"timestamp":"2025-01-21T11:55:51.673Z"}
