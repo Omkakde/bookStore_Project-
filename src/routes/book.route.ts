@@ -14,7 +14,7 @@ class bookRoutes {
 
     public routes = () => {
 
-        this.router.get('/', this.bookController.getAll);  
+        this.router.get('/',this.redisCache.getBooks ,this.bookController.getAll);  
         this.router.get('/:id',this.redisCache.getBookById, this.bookController.getByBookId);  
         this.router.delete('/id', userAuth, isAdmin,this.bookController.deleteBook);
         this.router.post('/',userAuth,this.BookValidator.bookCreateValid ,isAdmin,this.bookController.addBook);

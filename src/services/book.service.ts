@@ -32,9 +32,11 @@ class bookServices{
             if (!books || books.length === 0) {
                 throw new Error('No books found in the database');
             }
-            for (const book of books) {
-                await redisClient.lPush(this.cacheKey, JSON.stringify(book));
-            }
+            await redisClient.del(this.cacheKey);
+
+        for (const book of books) {
+            await redisClient.lPush(this.cacheKey, JSON.stringify(book));
+        }
             return {
                 success: true,
                 data: books,

@@ -1,0 +1,575 @@
+info: connected to redis {"timestamp":"2025-01-20T18:30:07.812Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:30:08.089Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:30:15.132Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:30:15.279Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:30:41.561Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:30:41.725Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:31:54.560Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:31:54.742Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:31:59.682Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:31:59.804Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:33:28.361Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:33:28.551Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:33:47.793Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:33:47.952Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:33:52.914Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:33:53.086Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:33:57.765Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:33:57.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:35:15.704Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:35:15.771Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:35:15.900Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:36:01.281Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:36:01.417Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:37:20.904Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:37:21.061Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:37:26.248Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:37:26.428Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:37:40.191Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:37:40.544Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:40:00.486Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:40:00.626Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:40:15.758Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:40:15.908Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:15.511Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:15.644Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:20.599Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:20.851Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:25.577Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:25.738Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:35.218Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:35.441Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:40.520Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:40.703Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:47.007Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:47.192Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:52.787Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:52.976Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:41:59.793Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:41:59.914Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:42:06.457Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:42:06.609Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:42:11.455Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:42:12.088Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:42:50.008Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:42:50.155Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:43:05.731Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:43:05.933Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:43:11.093Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:43:11.387Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:01.909Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:02.164Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:07.433Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:07.599Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:12.562Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:12.707Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:30.685Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:30.876Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:35.407Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:35.594Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:40.288Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:40.499Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:45.203Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:45.397Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:44:50.469Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:44:50.639Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:45:10.313Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:45:10.477Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:45:27.196Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:45:27.336Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:46:24.151Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:46:24.318Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:46:29.234Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:46:29.376Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:46:50.847Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:46:51.028Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:47:00.068Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:47:00.294Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:47:08.098Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:47:08.244Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:47:15.567Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:47:15.756Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:47:34.591Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:47:34.755Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:47:40.242Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:47:40.435Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:47:45.469Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:47:45.615Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:48:03.236Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:48:03.396Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:48:09.776Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:48:09.807Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:48:09.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:48:38.062Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:48:38.106Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:48:38.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:48:41.209Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:48:41.263Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:48:41.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:49:02.313Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:49:02.362Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:49:02.503Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:50:36.312Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:50:40.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:50:46.270Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:50:46.321Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:50:46.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T18:52:35.453Z"}
+info: connected to redis {"timestamp":"2025-01-20T18:52:35.483Z"}
+info: Connected to database. {"timestamp":"2025-01-20T18:52:35.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:02:23.661Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:02:23.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:02:25.761Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:02:25.799Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:02:26.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:11:28.842Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:11:28.880Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:11:29.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:11:53.765Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:11:53.802Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:11:54.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:12:12.664Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:12:12.712Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:12:12.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:13:34.109Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:13:34.171Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:13:34.362Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:13:45.401Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:13:45.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:13:50.516Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:13:50.588Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:13:50.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:14:06.356Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:14:06.423Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:14:06.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:14:31.228Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:14:31.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:14:33.221Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:14:33.272Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:14:33.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:16:00.916Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:16:01.012Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:16:01.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:16:07.054Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:16:07.102Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:16:07.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:16:09.186Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:16:09.241Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:16:09.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:16:12.304Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:16:12.334Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:16:12.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:16:17.971Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:16:18.027Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:16:18.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:16:20.223Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:16:20.252Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:16:20.438Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2451:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2440:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2438:35)
+    at PostgresQueryGenerator.getWhereConditions (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2866:19)
+    at PostgresQueryGenerator.selectQuery (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:1466:28)
+    at PostgresQueryInterface.select (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/wishlist/24/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:16:54.694Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2451:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2440:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2438:35)
+    at PostgresQueryGenerator.getWhereConditions (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:2866:19)
+    at PostgresQueryGenerator.selectQuery (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-generator.js:1466:28)
+    at PostgresQueryInterface.select (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (D:\backendWorkSpace\ebookstore\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/wishlist/24/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:17:18.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:17:54.596Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:17:54.652Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:17:54.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:18:45.298Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:18:45.350Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:18:45.511Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:18:53.060Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:18:53.253Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:18:59.238Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:18:59.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:04.238Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:04.299Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:04.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:19.744Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:19.790Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:19.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:22.850Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:22.898Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:23.079Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:34.770Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:34.820Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:34.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:43.537Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:43.570Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:43.742Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:48.618Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:48.649Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:48.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:19:51.198Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:19:51.253Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:19:51.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:03.175Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:03.228Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:03.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:10.770Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:10.810Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:11.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:16.627Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:16.665Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:16.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:28.262Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:28.315Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:28.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:41.000Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:41.057Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:41.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:44.751Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:44.801Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:45.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:20:58.521Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:20:58.579Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:20:58.746Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:21:05.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:21:21.124Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:21.193Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:21.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:21:23.872Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:23.903Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:24.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:21:28.197Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:28.265Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:28.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:21:30.773Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:30.919Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:31.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:21:45.270Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:45.309Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:45.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:21:48.789Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:48.833Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:48.977Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:51.483Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:51.682Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:21:56.722Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:21:56.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:22:03.494Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:03.544Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:03.756Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:07.579Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:07.830Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:12.798Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:13.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:22:18.066Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:18.114Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:18.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:22:25.379Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:25.438Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:25.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:22:32.822Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:32.864Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:33.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:22:38.957Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:39.001Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:39.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:22:46.240Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:22:46.297Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:22:46.448Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:22:58.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:23:54.711Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:23:54.765Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:23:55.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:24:01.347Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:24:01.389Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:24:01.554Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:24:07.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-20T19:25:40.355Z"}
+info: connected to redis {"timestamp":"2025-01-20T19:25:40.407Z"}
+info: Connected to database. {"timestamp":"2025-01-20T19:25:40.555Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:25:46.744Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:25:50.114Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-20T19:25:51.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:54:16.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:55:08.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:56:07.397Z"}
+info: Connected to database. {"timestamp":"2025-01-21T04:56:07.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:56:41.699Z"}
+info: Connected to database. {"timestamp":"2025-01-21T04:56:41.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:57:08.797Z"}
+info: Connected to database. {"timestamp":"2025-01-21T04:57:09.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:57:15.716Z"}
+info: Connected to database. {"timestamp":"2025-01-21T04:57:15.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T04:59:35.925Z"}
+info: connected to redis {"timestamp":"2025-01-21T04:59:35.979Z"}
+info: Connected to database. {"timestamp":"2025-01-21T04:59:36.178Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:00:41.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:01:06.340Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:01:06.443Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:01:06.707Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:01:17.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:01:55.626Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:01:55.668Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:01:55.939Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:02:01.199Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:02:01.266Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:02:01.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:02:05.907Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:02:05.953Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:02:08.146Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:02:08.210Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:02:08.326Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:02:13.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:02:56.136Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:02:56.255Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:02:56.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:02:59.306Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:02:59.346Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:02:59.521Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:03:01.563Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:03:32.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:04:02.636Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:04:02.686Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:04:02.851Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:04:08.692Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:04:08.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:04:15.561Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:04:15.645Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:04:15.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:05:01.231Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:05:01.294Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:05:01.452Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/wishlist/26/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:05:05.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:06:09.961Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:06:10.010Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:06:10.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:06:12.253Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:06:12.319Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:06:12.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:06:15.482Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:06:15.540Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:06:15.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:06:20.754Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:06:20.816Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:06:20.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:08:51.376Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:08:51.423Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:08:51.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:09:00.219Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:09:00.283Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:09:00.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:09:03.130Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:09:03.201Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:09:03.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:09:09.143Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:09:09.210Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:09:09.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:09:14.789Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:09:14.844Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:09:15.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:12:20.079Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:12:20.122Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:12:20.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:12:34.861Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:12:34.914Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:12:35.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:13:50.262Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:13:50.319Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:13:50.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:08.120Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:08.163Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:08.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:13.767Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:13.828Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:13.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:18.388Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:18.435Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:18.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:23.217Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:23.311Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:23.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:36.084Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:36.122Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:36.309Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:47.388Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:47.422Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:47.607Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:54.453Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:54.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:14:59.601Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:14:59.667Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:14:59.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:15:03.745Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:15:03.785Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:15:04.028Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id undefined
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/26/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:17:17.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:17:45.882Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:17:45.941Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:17:46.085Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id undefined
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/26/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:17:47.062Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id undefined
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/26/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:17:48.704Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id undefined
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/26/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:17:50.040Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:18:17.273Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:18:17.330Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:18:17.511Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 26
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/26/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-21T05:18:18.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:19:31.527Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:19:31.576Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:19:31.892Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:19:34.798Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:19:34.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T05:19:39.564Z"}
+info: connected to redis {"timestamp":"2025-01-21T05:19:39.642Z"}
+info: Connected to database. {"timestamp":"2025-01-21T05:19:39.890Z"}

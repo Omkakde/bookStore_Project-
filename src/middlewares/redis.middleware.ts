@@ -7,7 +7,7 @@ class RedisMiddleware {
         try {
             const books = await redisClient.lRange('books:list', 0, -1); 
             if (books.length > 0) {
-                res.status(200).json({
+               return res.status(200).json({
                     success: true,
                     data: books.map((book) => JSON.parse(book)), 
                     message: 'Fetched from cache',

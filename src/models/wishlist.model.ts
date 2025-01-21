@@ -12,7 +12,7 @@ export default (sequelize, DataTypes) => {
         books: DataTypes.JSONB
     },{
         sequelize,
-        modelName: 'wthis.wishlistishlists'
+        modelName: 'wishlists'
     });
     return Wishlist;
 }
