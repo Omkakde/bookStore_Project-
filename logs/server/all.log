@@ -9543,3 +9543,96 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2025-01-21T12:13:18.157Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T17:27:35.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T17:27:35.601Z"}
+info: connected to redis {"timestamp":"2025-01-21T17:27:35.681Z"}
+info: Connected to database. {"timestamp":"2025-01-21T17:27:36.427Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T17:30:43.329Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T17:30:43.337Z"}
+info: connected to redis {"timestamp":"2025-01-21T17:30:43.477Z"}
+info: Connected to database. {"timestamp":"2025-01-21T17:30:43.663Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);
+[7m  [0m [91m                                               ~[0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m54[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);
+[7m  [0m [91m                                                     [0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m72[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);
+[7m  [0m [91m                                                                       ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);
+[7m  [0m [91m                                               ~[0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m54[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);
+[7m  [0m [91m                                                     [0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m72[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);
+[7m  [0m [91m                                                                       ~[0m
+
+    at Object.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\order.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (D:\backendWorkSpace\ebookstore\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\OMKAKD~1\AppData\Local\Temp\ts-node-dev-hook-23523467626374694.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\OMKAKD~1\AppData\Local\Temp\ts-node-dev-hook-23523467626374694.js:114:20)
+    at require.extensions.<computed> (C:\Users\OMKAKD~1\AppData\Local\Temp\ts-node-dev-hook-23523467626374694.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\backendWorkSpace\ebookstore\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Tue Jan 21 2025 23:00:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":302944.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":253064,"external":3425706,"heapTotal":73986048,"heapUsed":52667600,"rss":110034944},"pid":11320,"uid":null,"version":"v20.17.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m54\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1146: \u001b[0mDeclaration expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                                     \u001b[0m\r\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m72\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m';' expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                                                       ~\u001b[0m\r\n\n    at Object.<anonymous> (D:\\backendWorkSpace\\ebookstore\\src\\services\\order.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (D:\\backendWorkSpace\\ebookstore\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\backendWorkSpace\\ebookstore\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2025-01-21T17:30:45.850Z","trace":[{"column":7,"file":"D:\\backendWorkSpace\\ebookstore\\src\\services\\order.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+info: connected to redis {"timestamp":"2025-01-21T17:30:45.932Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);
+[7m  [0m [91m                                               ~[0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m58[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);
+[7m  [0m [91m                                                         [0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m76[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);
+[7m  [0m [91m                                                                           ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);
+[7m  [0m [91m                                               ~[0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m58[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);
+[7m  [0m [91m                                                         [0m
+[96msrc/services/order.service.ts[0m:[93m56[0m:[93m76[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m56[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);
+[7m  [0m [91m                                                                           ~[0m
+
+    at Object.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\order.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (D:\backendWorkSpace\ebookstore\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\OMKAKD~1\AppData\Local\Temp\ts-node-dev-hook-23523467626374694.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\OMKAKD~1\AppData\Local\Temp\ts-node-dev-hook-23523467626374694.js:114:20)
+    at require.extensions.<computed> (C:\Users\OMKAKD~1\AppData\Local\Temp\ts-node-dev-hook-23523467626374694.js:71:20)
+    at Object.nodeDevHook [as .ts] (D:\backendWorkSpace\ebookstore\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Tue Jan 21 2025 23:00:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":302949.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":253084,"external":3425706,"heapTotal":73674752,"heapUsed":52704392,"rss":109752320},"pid":4864,"uid":null,"version":"v20.17.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m58\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1146: \u001b[0mDeclaration expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                                         \u001b[0m\r\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m76\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m';' expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                                                           ~\u001b[0m\r\n\n    at Object.<anonymous> (D:\\backendWorkSpace\\ebookstore\\src\\services\\order.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (D:\\backendWorkSpace\\ebookstore\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\backendWorkSpace\\ebookstore\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2025-01-21T17:30:50.846Z","trace":[{"column":7,"file":"D:\\backendWorkSpace\\ebookstore\\src\\services\\order.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T17:30:57.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T17:30:57.312Z"}
+info: connected to redis {"timestamp":"2025-01-21T17:30:57.409Z"}
+info: Connected to database. {"timestamp":"2025-01-21T17:30:57.618Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-21T17:31:58.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-21T17:31:58.554Z"}
+info: connected to redis {"timestamp":"2025-01-21T17:31:58.642Z"}
+info: Connected to database. {"timestamp":"2025-01-21T17:31:58.811Z"}

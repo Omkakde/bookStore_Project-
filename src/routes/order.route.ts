@@ -9,13 +9,13 @@ class orderRoutes{
         this.routes();
     }
     private routes = ()=>{
-        /** 
+    /**
  * @openapi
  * /api/v1/order/:
  *   post:
  *     tags:
  *       - Order
- *     description: Place an order for books
+ *     description: Place an order for books by providing user details .
  *     requestBody:
  *       required: true
  *       content:
@@ -23,12 +23,26 @@ class orderRoutes{
  *           schema:
  *             type: object
  *             properties:
- *               quantity:
- *                 type: integer
- *                 example: 2
- *               book_id:
- *                 type: integer
- *                 example: 1
+ *               fullAddress:
+ *                 type: string
+ *                 example: "123 Main St, Apartment 4B"
+ *               city:
+ *                 type: string
+ *                 example: "Pune"
+ *               state:
+ *                 type: string
+ *                 example: "Maharashtra"
+ *               cartItems:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *                   properties:
+ *                     book_id:
+ *                       type: integer
+ *                       example: 1
+ *                     quantityBook:
+ *                       type: integer
+ *                       example: 2
  *     responses:
  *       201:
  *         description: Order placed successfully.
@@ -36,6 +50,8 @@ class orderRoutes{
  *         description: Invalid data, order not found, or authorization error.
  *       500:
  *         description: Server error while processing the order.
+ *     security:
+ *       - BearerAuth: []
  */
         this.router.post('/', userAuth, isUser, this.orderControllers.placeOrder);
 

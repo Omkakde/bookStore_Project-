@@ -6,19 +6,29 @@ import Carts from '../models/cart.model';
 import sequelize, { DataTypes } from '../config/database';
 import Order from "../models/order.model";
 import redisClient from "../config/redis";
+import { sendOrderSuccessful } from "../utils/mail.util";
+import Details from "../models/details.model";
 
 export class OrderServies {
     private Cart = Carts(sequelize, DataTypes);
     private Books = Books(sequelize, DataTypes);
     private Orders = Order(sequelize,DataTypes);
-
+    private Detail = Details(sequelize,DataTypes);
     public placeOrder = async (req) => {
         try {
           const userId = req.body.admin_user_id;      
           const cartItems = await this.Cart.findAll({ where: { user_id: userId } });
+          const userDetails = await this.Detail.findAll({where:{user_Id:userId}});
           if (!cartItems || cartItems.length === 0) {
             throw new Error('No items in the cart to place an order');
-          }   
+          } 
+           
+          if (userDetails) {           
+            await this.Detail.update(req.body, { where: { user_Id: userId } });
+          } else {
+            await this.Detail.create({ user_Id: userId, ...req.body });
+          } 
+
           const books = await this.Books.findAll();
           let totalOrderPrice = 0;
       
@@ -52,7 +62,7 @@ export class OrderServies {
           const order = await this.Orders.create(newOrder);
           await this.Cart.destroy({ where: { user_id: userId } });
           await redisClient.flushAll();
-
+          await sendOrderSuccessful(req.body.email,order.total_price);
           return {
             message: 'Order placed successfully',
             order,
