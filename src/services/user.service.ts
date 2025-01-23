@@ -4,7 +4,8 @@ import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
 import sequelize, { DataTypes } from '../config/database';
 import { sendPasswordResetToken } from '../utils/mail.util';
-
+import { sendToQueue } from '../utils/rabbitMQ';
+sendToQueue
 class UserService {
   private User = User(sequelize, DataTypes);
   public newUser = async (body) => {
@@ -19,9 +20,16 @@ class UserService {
       if (!data) {
         throw new Error('Registration failed');
       }
-  
+      const transformedData = {
+        name: data.name,
+        email:data.email,
+        phone:data.phone,
+        role:data.role,
+        password:data.password,
+        refreshToken:data.refreshToken,
+      };
+      await sendToQueue('userQueue', transformedData);
       return {
-        ...data.dataValues,
         message: 'Registration successful',
       };
     } catch (error) {

@@ -1,0 +1,36 @@
+info: ::1 - - [19/Jan/2025:13:55:26 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:13:55:33 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:25:28 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:25:32 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:26:11 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:26:15 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:28:52 +0000] "GET /api/v1/books/2 HTTP/1.1" 500 77 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:30:05 +0000] "GET /api/v1/books/2 HTTP/1.1" 500 77 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:32:15 +0000] "GET /api/v1/books/2 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:33:05 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:33:09 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7197 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:34:12 +0000] "GET /api/v1/books/4 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:35:33 +0000] "GET /api/v1/books/4 HTTP/1.1" 500 66 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:36:18 +0000] "GET /api/v1/books/4 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:38:14 +0000] "GET /api/v1/books/4 HTTP/1.1" 200 169 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:38:23 +0000] "GET /api/v1/books/2 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:38:28 +0000] "GET /api/v1/books/1 HTTP/1.1" 200 1152 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [19/Jan/2025:14:39:15 +0000] "GET /api/v1/books/1 HTTP/1.1" 200 1152 "-" "PostmanRuntime/7.43.0"
+

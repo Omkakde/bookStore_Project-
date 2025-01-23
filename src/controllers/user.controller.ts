@@ -11,7 +11,6 @@ class userControllers{
       const data = await this.userService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
-        data:data,
         message: `registered Successfully!`
       });
     } catch (error) {

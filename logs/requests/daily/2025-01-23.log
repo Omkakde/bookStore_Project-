@@ -1,0 +1,940 @@
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:46 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:46 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:46 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:47 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:47 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:31:47 +0000] "POST /api/v1/cart/4/add_To_Cart HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:26 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:26 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:26 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:26 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:57 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:57 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:57 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:32:58 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:35:46 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 221 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:36:09 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 216 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:11 +0000] "GET /api/v1/get-cart-items HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:47 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:47 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:47 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:48 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:48 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:48 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:39:48 +0000] "GET /api/v1/get-cart-items HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:40:51 +0000] "GET /api/v1/get-cart-items HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:41:45 +0000] "GET /api/v1/get-cart-items HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:15 +0000] "GET /api/v1/get-cart-items HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:42:48 +0000] "GET /api/v1/get-cart-items HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:19 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:19 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:19 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:20 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:20 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:20 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:43:20 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:44:08 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:24 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:24 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:25 +0000] "PUT /api/v1/cart/2/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:47:59 +0000] "PUT /api/v1/cart/2/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:02 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:49:37 +0000] "PUT /api/v1/cart/3/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:52:58 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:53:28 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:54:15 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:55:44 +0000] "PUT /api/v1/cart/1/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:10 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "POST /api/v1/cart/3/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:11 +0000] "PUT /api/v1/cart/0/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 220 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 420 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:56:54 +0000] "PUT /api/v1/cart/0/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 216 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 421 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:57:27 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:30 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:58:31 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:59:07 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:04 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:05 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:05 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:11:06 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:20 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:43 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:12:44 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:20 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 217 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:15:21 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [23/Jan/2025:05:15:43 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:15:44 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 1889 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:15:44 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:15:44 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:15:44 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:15:44 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:16:01 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:16:01 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:16:01 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:16:01 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 23575 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Jan/2025:05:16:01 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 423 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:11 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:12 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:12 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:18:12 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:28 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 423 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "POST /api/v1/wishlist/4/addBook HTTP/1.1" 500 125 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:23:29 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 404 69 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:24 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 423 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "POST /api/v1/wishlist/4/addBook HTTP/1.1" 200 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:25:25 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 344 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:32 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 423 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "POST /api/v1/wishlist/4/addBook HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 344 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:27:33 +0000] "DELETE /api/v1/wishlist/4/removeBook HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "POST /api/v1/wishlist/5/addBook HTTP/1.1" 200 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 371 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:28:06 +0000] "DELETE /api/v1/wishlist/4/removeBook HTTP/1.1" 500 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "POST /api/v1/wishlist/5/addBook HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 371 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:02 +0000] "DELETE /api/v1/wishlist/5/removeBook HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "POST /api/v1/wishlist/8/addBook HTTP/1.1" 200 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 343 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:29:52 +0000] "DELETE /api/v1/wishlist/4/removeBook HTTP/1.1" 500 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "POST /api/v1/wishlist/8/addBook HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 343 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:30:43 +0000] "DELETE /api/v1/wishlist/4/removeBook HTTP/1.1" 500 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:21 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "POST /api/v1/wishlist/2/addBook HTTP/1.1" 200 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 553 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:31:22 +0000] "DELETE /api/v1/wishlist/1/removeBook HTTP/1.1" 500 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/v1/wishlist/2/addBook HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 553 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:36:20 +0000] "POST /api/v1/order/ HTTP/1.1" 500 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/v1/wishlist/1/addBook HTTP/1.1" 200 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 1704 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:37:15 +0000] "POST /api/v1/order/ HTTP/1.1" 500 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:27 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "POST /api/v1/cart/5/add_To_Cart HTTP/1.1" 201 218 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 424 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "PUT /api/v1/cart/1/cart_item_quantity HTTP/1.1" 500 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "PUT /api/v1/cart/2/remove_cart_item HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "GET /api/v1/books/4/ HTTP/1.1" 200 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "POST /api/v1/wishlist/10/addBook HTTP/1.1" 200 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 1882 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2025:05:38:28 +0000] "POST /api/v1/order/ HTTP/1.1" 500 106 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [23/Jan/2025:06:42:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 490 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:43:50 +0000] "POST /api/v1/cart/24/add_To_Cart HTTP/1.1" 201 220 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:43:59 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:44:06 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 422 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:44:19 +0000] "POST /api/v1/order HTTP/1.1" 200 256 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:45:36 +0000] "POST /api/v1/cart/2/add_To_Cart HTTP/1.1" 201 220 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:45:45 +0000] "POST /api/v1/cart/10/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:45:50 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 414 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:45:59 +0000] "POST /api/v1/order HTTP/1.1" 200 252 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:47:54 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 500 90 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:48:03 +0000] "POST /api/v1/cart/10/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:48:09 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 262 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:48:13 +0000] "POST /api/v1/order HTTP/1.1" 200 203 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:51:31 +0000] "POST /api/v1/users/ HTTP/1.1" 201 49 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:52:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 514 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:52:35 +0000] "POST /api/v1/cart/10/add_To_Cart HTTP/1.1" 500 93 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:52:46 +0000] "POST /api/v1/cart/11/add_To_Cart HTTP/1.1" 201 222 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:52:50 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 265 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:06:53:06 +0000] "POST /api/v1/order HTTP/1.1" 200 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:12:26 +0000] "POST /api/v1/cart/11/add_To_Cart HTTP/1.1" 201 222 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:12:32 +0000] "POST /api/v1/order HTTP/1.1" 200 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:14:16 +0000] "POST /api/v1/cart/11/add_To_Cart HTTP/1.1" 201 222 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:14:21 +0000] "POST /api/v1/order HTTP/1.1" 200 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:16:00 +0000] "POST /api/v1/cart/11/add_To_Cart HTTP/1.1" 201 222 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:16:04 +0000] "POST /api/v1/order HTTP/1.1" 200 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:20:05 +0000] "POST /api/v1/cart/11/add_To_Cart HTTP/1.1" 201 222 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:07:20:12 +0000] "POST /api/v1/order HTTP/1.1" 200 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:18:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 514 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:19:33 +0000] "POST /api/v1/cart/12/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:19:38 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 262 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:19:56 +0000] "POST /api/v1/order HTTP/1.1" 200 203 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:26:06 +0000] "POST /api/v1/users/ HTTP/1.1" 201 49 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:26:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 522 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:26:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 522 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:27:06 +0000] "POST /api/v1/cart/12/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:27:13 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 262 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:27:30 +0000] "POST /api/v1/order HTTP/1.1" 200 203 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:28:04 +0000] "GET /api/v1/order/ HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:28:12 +0000] "GET /api/v1/order/ HTTP/1.1" 200 204 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:28:32 +0000] "POST /api/v1/cart/12/add_To_Cart HTTP/1.1" 500 93 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:28:40 +0000] "POST /api/v1/cart/13/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:28:47 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 263 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:28:56 +0000] "POST /api/v1/order HTTP/1.1" 200 203 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:30:32 +0000] "POST /api/v1/users/ HTTP/1.1" 201 49 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:30:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 534 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:31:21 +0000] "POST /api/v1/cart/16/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:31:30 +0000] "POST /api/v1/cart/17/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:31:35 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 416 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [23/Jan/2025:09:32:48 +0000] "POST /api/v1/order HTTP/1.1" 200 254 "-" "PostmanRuntime/7.43.0"
+
