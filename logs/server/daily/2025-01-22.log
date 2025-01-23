@@ -1,0 +1,790 @@
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T09:24:53.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T09:24:53.305Z"}
+info: Connected to database. {"timestamp":"2025-01-22T09:24:55.088Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T09:25:16.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T09:25:16.109Z"}
+info: connected to redis {"timestamp":"2025-01-22T09:25:16.179Z"}
+info: Connected to database. {"timestamp":"2025-01-22T09:25:16.435Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/cart/get-cart-items 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:27:23.799Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/wishlist/24/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:28:08.115Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/wishlist/3/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:29:40.059Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 3
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/3/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:29:49.046Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\types\json.js:86:15)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12) 
+    url - /api/v1/wishlist/24/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:30:32.701Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T09:34:15.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T09:34:15.861Z"}
+info: connected to redis {"timestamp":"2025-01-22T09:34:15.944Z"}
+info: Connected to database. {"timestamp":"2025-01-22T09:34:16.106Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T10:40:55.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T10:40:55.991Z"}
+info: connected to redis {"timestamp":"2025-01-22T10:40:56.104Z"}
+info: Connected to database. {"timestamp":"2025-01-22T10:40:57.521Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:41:50.431Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token ''', ..." "phone": '123456789"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:42:11.533Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:42:35.890Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T10:43:55.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T10:43:55.542Z"}
+info: connected to redis {"timestamp":"2025-01-22T10:43:55.597Z"}
+info: Connected to database. {"timestamp":"2025-01-22T10:43:55.850Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T10:43:58.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T10:43:58.701Z"}
+info: connected to redis {"timestamp":"2025-01-22T10:43:58.765Z"}
+info: Connected to database. {"timestamp":"2025-01-22T10:43:58.932Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:46:09.632Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T10:54:13.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T10:54:13.189Z"}
+info: connected to redis {"timestamp":"2025-01-22T10:54:13.304Z"}
+info: Connected to database. {"timestamp":"2025-01-22T10:54:13.572Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:36:12.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:36:12.900Z"}
+info: connected to redis {"timestamp":"2025-01-22T11:36:12.930Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:36:13.180Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:40:56.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:40:56.057Z"}
+info: connected to redis {"timestamp":"2025-01-22T11:40:56.105Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:40:56.306Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:42:56.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:42:56.259Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:42:56.504Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:45:02.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:45:02.381Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:45:02.649Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:47:57.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:47:57.307Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:47:57.508Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:49:20.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:49:20.084Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:49:20.299Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:50:36.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:50:36.060Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:50:36.311Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T11:52:14.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T11:52:14.220Z"}
+info: Connected to database. {"timestamp":"2025-01-22T11:52:14.474Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T16:49:23.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T16:49:23.218Z"}
+info: Connected to database. {"timestamp":"2025-01-22T16:49:23.862Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T16:55:02.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T16:55:02.752Z"}
+info: Connected to database. {"timestamp":"2025-01-22T16:55:03.228Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T16:55:51.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T16:55:51.121Z"}
+info: Connected to database. {"timestamp":"2025-01-22T16:55:51.397Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T16:58:50.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T16:58:50.787Z"}
+info: Connected to database. {"timestamp":"2025-01-22T16:58:51.037Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:00:38.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:00:38.421Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:00:39.208Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:02:32.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:02:32.882Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:02:33.265Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:04:09.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:04:09.659Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:04:09.837Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:05:05.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:05:05.521Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:05:05.751Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:07:09.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:07:09.885Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:07:10.197Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:09:04.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:09:04.634Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:09:04.863Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:09:59.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:09:59.588Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:09:59.830Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:11:16.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:11:16.230Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:11:16.470Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:12:00.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:12:00.853Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:12:01.135Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:12:32.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:12:32.768Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:12:32.993Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:13:14.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:13:14.675Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:13:14.905Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:14:12.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:14:12.890Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:14:13.069Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:14:13.163Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:15:07.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:15:07.286Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:15:07.486Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:15:07.587Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:23:43.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:23:43.767Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:23:43.974Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:25:26.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:25:26.434Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:25:26.628Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:25:55.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:25:55.365Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:25:55.590Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:27:27.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:27:27.972Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:27:28.191Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:28:19.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:28:20.053Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:28:20.264Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:29:19.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:29:19.806Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:29:19.998Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:29:53.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:29:53.447Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:29:53.671Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:30:26.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:30:27.013Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:30:27.218Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:31:09.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:31:09.989Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:31:10.214Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:31:50.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:31:50.679Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:31:50.874Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:32:21.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:32:21.818Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:32:22.045Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:32:50.729Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:32:50.829Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:32:51.079Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:36:17.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:36:17.716Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:36:17.928Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:36:40.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:36:40.952Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:36:41.172Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:38:13.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:38:13.136Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:38:13.376Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:39:59.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:40:00.067Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:40:00.258Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:41:11.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:41:11.307Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:41:11.669Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:41:44.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:41:44.643Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:41:44.841Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:42:16.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:42:16.494Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:42:16.736Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:42:16.868Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:42:37.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:42:38.029Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:42:38.230Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:42:38.338Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:43:01.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:43:01.558Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:43:01.759Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:43:01.907Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:46:40.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:46:40.489Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:46:40.698Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:46:40.809Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:46:40.831Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:48:55.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:48:55.813Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:48:56.006Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:48:56.105Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:48:56.121Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:49:45.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:49:45.455Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:49:45.664Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:49:45.980Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:54:33.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:54:33.336Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:54:33.544Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:54:33.730Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:55:02.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:55:02.877Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:55:03.089Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:55:03.289Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T17:56:41.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T17:56:41.217Z"}
+info: Connected to database. {"timestamp":"2025-01-22T17:56:41.440Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:56:41.650Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:00:03.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:00:03.262Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:00:03.474Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:00:03.713Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:03:18.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:03:18.927Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:03:19.123Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:03:19.313Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:05:39.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:05:39.483Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:05:39.688Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:05:39.862Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:08:18.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:08:18.144Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:08:18.355Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:08:18.605Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:09:52.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:09:52.672Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:09:52.883Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:09:53.079Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:11:25.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:11:25.402Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:11:25.612Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:11:25.793Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:12:40.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:12:40.191Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:12:40.377Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:12:40.566Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:16:44.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:16:44.259Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:16:44.461Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:16:44.646Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:21:25.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:21:25.777Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:21:25.983Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:21:26.085Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:21:26.104Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:21:26.131Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:22:49.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:22:49.549Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:22:49.787Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:24:26.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:24:26.020Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:24:26.253Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:24:37.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:24:37.297Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:24:37.510Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:24:49.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:24:49.839Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:24:50.234Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:25:55.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:25:55.210Z"}
+info: connected to redis {"timestamp":"2025-01-22T18:25:55.279Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:25:55.436Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:27:15.670Z"}
+info: connected to redis {"timestamp":"2025-01-22T18:27:15.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:27:15.730Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:27:15.944Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:16.047Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:16.067Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:16.097Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:27:56.089Z"}
+info: connected to redis {"timestamp":"2025-01-22T18:27:56.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:27:56.147Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:27:56.358Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:56.462Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:56.482Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:56.512Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:29:31.226Z"}
+info: connected to redis {"timestamp":"2025-01-22T18:29:31.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:29:31.285Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:29:31.493Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:29:31.595Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:29:31.615Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:29:31.648Z"}

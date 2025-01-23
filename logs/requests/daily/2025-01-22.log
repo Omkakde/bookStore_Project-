@@ -1,0 +1,492 @@
+info: ::1 - - [22/Jan/2025:09:25:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 490 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:25:58 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7364 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:26:03 +0000] "GET /api/v1/books/ HTTP/1.1" 200 7320 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:26:14 +0000] "GET /api/v1/books/20 HTTP/1.1" 200 266 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:27:13 +0000] "POST /api/v1/cart/24/add_To_Cart HTTP/1.1" 201 221 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:27:23 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:27:38 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:28:08 +0000] "POST /api/v1/wishlist/24/addBook HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:28:21 +0000] "POST /api/v1/wishlist/24/addBook HTTP/1.1" 200 64 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:28:35 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 200 363 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:29:40 +0000] "DELETE /api/v1/wishlist/3/removeBook HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:29:49 +0000] "DELETE /api/v1/wishlist/3/removeBook HTTP/1.1" 500 73 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:30:09 +0000] "DELETE /api/v1/wishlist/24/removeBook HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:30:15 +0000] "GET /api/v1/wishlist/getAll HTTP/1.1" 404 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:30:45 +0000] "GET /api/v1/cart/get-cart-items HTTP/1.1" 200 268 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:31:03 +0000] "POST /api/v1/order HTTP/1.1" 200 205 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:09:31:42 +0000] "GET /api/v1/order/ HTTP/1.1" 200 1052 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [22/Jan/2025:10:41:10 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:41:11 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:41:11 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 23573 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:41:11 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:41:11 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:41:50 +0000] "POST /api/v1/users/ HTTP/1.1" 500 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:42:35 +0000] "POST /api/v1/users/ HTTP/1.1" 500 61 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:43:16 +0000] "POST /api/v1/users/ HTTP/1.1" 201 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:44:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 502 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:45:12 +0000] "GET /api/v1/books HTTP/1.1" 200 7363 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:46:09 +0000] "POST /api/v1/books HTTP/1.1" 500 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:10:46:24 +0000] "GET /api/v1/books/2 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:00:39 +0000] "POST /api/v1/users HTTP/1.1" 201 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:05:05 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:05:05 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:05:05 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:07:09 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:07:10 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:07:10 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:09:04 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:09:04 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:09:04 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:09:59 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:09:59 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:09:59 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:11:16 +0000] "POST /login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:11:16 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:11:16 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:12:00 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:12:01 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:12:32 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:12:32 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:13:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:13:14 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:13:14 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:14:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:14:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:14:13 +0000] "POST /api/v1/users/login HTTP/1.1" 500 59 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:15:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:15:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:15:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 59 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:23:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:23:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:25:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:25:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:25:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:25:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:27:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:27:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:28:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:28:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:29:19 +0000] "POST /api/users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:29:53 +0000] "POST /api/users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:29:53 +0000] "POST /api/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:30:27 +0000] "POST /api/users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:30:27 +0000] "POST /api/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:31:10 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:31:10 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:31:50 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:31:50 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:32:21 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:32:22 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:32:22 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:32:50 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:32:51 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:32:51 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:17 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:17 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:18 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:41 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:41 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:41 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:41 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:36:41 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:38:13 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:38:13 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:38:13 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:38:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:38:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:40:00 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:40:00 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:40:00 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:40:00 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:40:00 +0000] "POST /api/v1/users/login HTTP/1.1" 400 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:11 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:11 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:11 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:44 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:44 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:44 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:41:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:16 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:16 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:16 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:16 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:38 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:38 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:38 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:42:38 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:43:01 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:43:01 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:43:01 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:43:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:43:01 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:46:40 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:46:40 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:46:40 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:46:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:46:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:46:40 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:48:55 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:48:56 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:48:56 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:48:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:48:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:48:56 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:49:45 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:49:45 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:49:45 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:49:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:49:45 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:49:46 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:54:33 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:54:33 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:54:33 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:54:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:54:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:54:33 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:55:02 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:55:03 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:55:03 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:55:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:55:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:55:03 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:56:41 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:56:41 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:56:41 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:56:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:56:41 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:17:56:41 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:00:03 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:00:03 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:00:03 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:00:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:00:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:00:05 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:03:18 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:03:19 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:03:19 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:03:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:03:19 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:03:21 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:05:39 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:05:39 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:05:39 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:05:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:05:39 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:05:39 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:08:18 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:08:18 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:08:18 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:08:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:08:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:08:18 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:09:52 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:09:52 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:09:52 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:09:53 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:09:53 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:09:53 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:11:25 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:11:25 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:11:25 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:11:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:11:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:11:25 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:12:40 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:12:40 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:12:40 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:12:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:12:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:12:40 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:16:44 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:16:44 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:16:44 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:16:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 500 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:16:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:16:44 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 200 207 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:25 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:25 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:26 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:26 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:21:26 +0000] "POST /api/v1/cart/4/add_To_Cart HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [22/Jan/2025:18:26:06 +0000] "GET /docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:18:26:06 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:18:26:06 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:18:26:06 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 23575 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:18:26:06 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jan/2025:18:26:07 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:15 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:15 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:16 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:16 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:16 +0000] "POST /api/v1/cart/4/add_To_Cart HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:27:56 +0000] "POST /api/v1/cart/4/add_To_Cart HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/v1/users HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/users/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 79 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/v1/users/refreshtoken HTTP/1.1" 500 63 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2025:18:29:31 +0000] "POST /api/v1/cart/4/add_To_Cart HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+

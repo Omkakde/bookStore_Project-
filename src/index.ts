@@ -9,7 +9,9 @@ import routes from './routes';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
 import swaggerDocs from './utils/swagger';
+
 import morgan from 'morgan';
+import { connectToRabbitMQ } from './utils/rabbitMQ';
 
 class App {
   public app: Application;
@@ -20,20 +22,20 @@ class App {
   private logStream = Logger.logStream;
   private logger = Logger.logger;
   public errorHandler = new ErrorHandler();
+  public server;
 
   constructor() {
     this.app = express();
     this.host = process.env.APP_HOST;
     this.port = process.env.APP_PORT;
     this.api_version = process.env.API_VERSION;
-
+    this.connectRabbitMQ(); 
     this.initializeMiddleWares();
     this.initializeRoutes();
     this.swaggerCall();
     this.initializeErrorHandlers();
-    this.startApp();
   }
- 
+
   public swaggerCall(): void {
     swaggerDocs(this.app, this.port, this.host);
   }
@@ -44,6 +46,15 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: this.logStream }));
+  }
+  private async connectRabbitMQ(): Promise<void> {
+    try {
+        await connectToRabbitMQ(); 
+        console.log('RabbitMQ connected');
+    } catch (error) {
+        console.error('Failed to connect RabbitMQ:', error);
+        process.exit(1); 
+    }
   }
 
   public initializeRoutes(): void {
@@ -56,11 +67,14 @@ class App {
     this.app.use(this.errorHandler.notFound);
   }
 
-  public startApp(): void {
-    this.app.listen(this.port, () => {
-      this.logger.info(
-        `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
-      );
+  public startApp(): Promise<any> {
+    return new Promise((resolve, reject) => {
+      this.server = this.app.listen(this.port, () => {
+        this.logger.info(
+          `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
+        );
+        resolve(this.server);
+      }).on('error', reject);
     });
   }
 
@@ -70,5 +84,13 @@ class App {
 }
 
 const app = new App();
-
 export default app;
+
+
+if (require.main === module) {
+  app.startApp().then((server) => {
+    console.log('Server started:', server.address())
+  }).catch((err) => {
+    console.error('Error starting server:', err);
+  });
+}

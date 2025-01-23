@@ -1,4 +1,4 @@
-import IDetails from "../interfaces/details.interface";
+import IDetails from "../interfaces/userDetails.interface";
 import { Sequelize, Model, DataTypes } from "sequelize";
 
 

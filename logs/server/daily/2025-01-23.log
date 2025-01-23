@@ -1,0 +1,666 @@
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:31:46.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:31:46.709Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:31:46.934Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:31:47.040Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:31:47.060Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:31:47.086Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:32:26.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:32:26.118Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:32:26.315Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:32:26.419Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:32:26.438Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:32:57.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:32:57.733Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:32:57.912Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:32:58.095Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:35:46.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:35:46.341Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:35:46.549Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:35:46.748Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:36:09.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:36:09.496Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:36:09.707Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:36:09.928Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:39:10.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:39:10.946Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:39:11.141Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:39:11.327Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:39:47.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:39:47.629Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:39:47.861Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:39:48.052Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:40:51.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:40:51.402Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:40:51.601Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:40:51.789Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:41:45.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:41:45.300Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:41:45.481Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:41:45.694Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:42:15.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:42:15.208Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:42:15.417Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:42:15.606Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:42:48.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:42:48.212Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:42:48.412Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:42:48.602Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:43:19.612Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:43:19.675Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:43:19.860Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:43:20.045Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:44:08.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:44:08.366Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:44:08.582Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:44:08.793Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:47:24.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:47:24.752Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:47:24.962Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:47:25.166Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:47:59.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:47:59.171Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:47:59.376Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:47:59.572Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:49:02.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:49:02.234Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:49:02.440Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:49:02.615Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:49:37.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:49:37.106Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:49:37.303Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:49:37.487Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:52:57.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:52:57.995Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:52:58.197Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:52:58.377Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:53:28.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:53:28.297Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:53:28.530Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:53:28.725Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:54:15.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:54:15.250Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:54:15.458Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:54:15.640Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:55:44.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:55:44.157Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:55:44.364Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:55:44.566Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:56:10.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:56:10.898Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:56:11.103Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:56:11.288Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:56:53.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:56:53.980Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:56:54.194Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:56:54.405Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:57:26.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:57:27.060Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:57:27.263Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:57:27.463Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:58:30.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:58:30.893Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:58:31.093Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:58:31.293Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-22T18:59:07.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-22T18:59:07.202Z"}
+info: Connected to database. {"timestamp":"2025-01-22T18:59:07.414Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:59:07.607Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:11:03.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:11:03.889Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:11:03.909Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:11:05.834Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:11:06.348Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:12:20.108Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:12:20.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:12:20.175Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:12:20.382Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:12:20.516Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:12:43.796Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:12:43.847Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:12:43.863Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:12:44.069Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:12:44.212Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:15:20.790Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:15:20.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:15:20.852Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:15:21.051Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:15:21.217Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:15:39.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:15:39.028Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:15:39.102Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:15:39.260Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:15:56.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:15:56.579Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:15:56.676Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:15:56.813Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:18:11.475Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:18:11.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:18:11.536Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:18:11.754Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:18:11.891Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:23:28.752Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:23:28.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:23:28.822Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:23:29.059Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:23:29.210Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: WHERE parameter "id" has invalid "undefined" value
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.throw (<anonymous>)
+    at rejected (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:39:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:23:29.371Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:25:24.478Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:25:24.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:25:24.654Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:25:24.882Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:25:25.050Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:27:32.624Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:27:32.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:27:32.676Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:27:32.905Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:27:33.036Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 4 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:27:33.197Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:28:05.992Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:28:06.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:28:06.067Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:28:06.300Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:28:06.446Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 4
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:28:06.669Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:29:02.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:29:02.179Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:29:02.188Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:29:02.436Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:02.582Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 5 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/5/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:02.761Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:29:52.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:29:52.374Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:29:52.376Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:29:52.596Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:52.745Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 4
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:52.953Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:30:43.151Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:30:43.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:30:43.221Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:30:43.440Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:30:43.607Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 8 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/8/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:30:43.781Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 4
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:30:43.848Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:31:21.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:31:21.675Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:31:21.682Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:31:21.921Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:31:22.057Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 1
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/1/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:31:22.270Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:36:20.165Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:36:20.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:36:20.236Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:36:20.448Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:36:20.625Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 2 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/2/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:36:20.785Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:37:14.880Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:37:14.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:37:14.959Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:37:15.207Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:37:15.349Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T05:38:27.717Z"}
+info: connected to redis {"timestamp":"2025-01-23T05:38:27.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T05:38:27.769Z"}
+info: Connected to database. {"timestamp":"2025-01-23T05:38:28.014Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:38:28.154Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T06:41:35.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T06:41:35.903Z"}
+info: Connected to database. {"timestamp":"2025-01-23T06:41:38.911Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T06:42:03.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T06:42:03.563Z"}
+info: connected to redis {"timestamp":"2025-01-23T06:42:03.635Z"}
+info: Connected to database. {"timestamp":"2025-01-23T06:42:04.287Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T06:45:24.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T06:45:24.295Z"}
+info: connected to redis {"timestamp":"2025-01-23T06:45:24.381Z"}
+info: Connected to database. {"timestamp":"2025-01-23T06:45:24.657Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T06:47:36.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T06:47:36.438Z"}
+info: connected to redis {"timestamp":"2025-01-23T06:47:36.511Z"}
+info: Connected to database. {"timestamp":"2025-01-23T06:47:36.676Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T09:17:24.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T09:17:24.575Z"}
+info: connected to redis {"timestamp":"2025-01-23T09:17:24.749Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T09:17:28.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T09:17:28.202Z"}
+info: connected to redis {"timestamp":"2025-01-23T09:17:28.286Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T09:17:35.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T09:17:35.756Z"}
+info: connected to redis {"timestamp":"2025-01-23T09:17:35.811Z"}
+info: Connected to database. {"timestamp":"2025-01-23T09:17:39.656Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T09:17:43.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T09:17:43.631Z"}
+info: connected to redis {"timestamp":"2025-01-23T09:17:43.732Z"}
+info: Connected to database. {"timestamp":"2025-01-23T09:17:43.909Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T09:17:46.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T09:17:46.552Z"}
+info: connected to redis {"timestamp":"2025-01-23T09:17:46.638Z"}
+info: Connected to database. {"timestamp":"2025-01-23T09:17:46.880Z"}
+info: Swagger Docs available at http://localhost:3000/docs {"timestamp":"2025-01-23T09:20:52.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-01-23T09:20:52.827Z"}
+info: connected to redis {"timestamp":"2025-01-23T09:20:52.911Z"}
+info: Connected to database. {"timestamp":"2025-01-23T09:20:53.088Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/order/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-23T09:28:04.670Z"}

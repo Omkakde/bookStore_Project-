@@ -38,7 +38,7 @@ class UserRoutes {
      *                 example: "user1@example.com"
      *               phone:
      *                 type: number
-     *                 example: 1234567890
+     *                 example: "1234567890"
      *               role:
      *                 type: string
      *                 example: user

@@ -7828,3 +7828,1233 @@ Error: ⨯ Unable to compile TypeScript:
     at Object.nodeDevHook [as .ts] (D:\backendWorkSpace\ebookstore\node_modules\ts-node-dev\lib\hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:1288:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Tue Jan 21 2025 23:00:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":302949.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":253084,"external":3425706,"heapTotal":73674752,"heapUsed":52704392,"rss":109752320},"pid":4864,"uid":null,"version":"v20.17.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                               ~\u001b[0m\r\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m58\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1146: \u001b[0mDeclaration expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                                         \u001b[0m\r\n\u001b[96msrc/services/order.service.ts\u001b[0m:\u001b[93m56\u001b[0m:\u001b[93m76\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m';' expected.\r\n\r\n\u001b[7m56\u001b[0m           await sendOrderSuccessful(kakadeom123@gmail.com,order.total_price);\r\n\u001b[7m  \u001b[0m \u001b[91m                                                                           ~\u001b[0m\r\n\n    at Object.<anonymous> (D:\\backendWorkSpace\\ebookstore\\src\\services\\order.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (D:\\backendWorkSpace\\ebookstore\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js:71:20)\n    at Object.nodeDevHook [as .ts] (D:\\backendWorkSpace\\ebookstore\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2025-01-21T17:30:50.846Z","trace":[{"column":7,"file":"D:\\backendWorkSpace\\ebookstore\\src\\services\\order.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\OMKAKD~1\\AppData\\Local\\Temp\\ts-node-dev-hook-23523467626374694.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+error: uncaughtException: Connection timeout
+Error: Connection timeout
+    at Socket.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:633:28)
+    at Socket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:591:8)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) {"date":"Wed Jan 22 2025 14:54:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":360193.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":337984,"external":3509822,"heapTotal":71245824,"heapUsed":42674352,"rss":107827200},"pid":13872,"uid":null,"version":"v20.17.0"},"stack":"Error: Connection timeout\n    at Socket.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:177:124)\n    at Object.onceWrapper (node:events:633:28)\n    at Socket.emit (node:events:519:28)\n    at Socket._onTimeout (node:net:591:8)\n    at listOnTimeout (node:internal/timers:581:17)\n    at processTimers (node:internal/timers:519:7)","timestamp":"2025-01-22T09:24:53.395Z","trace":[{"column":124,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":null,"line":177,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":8,"file":"node:net","function":"Socket._onTimeout","line":591,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":581,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":519,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/cart/get-cart-items 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:27:23.799Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/wishlist/24/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:28:08.115Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/wishlist/3/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:29:40.059Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 3
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/3/removeBook 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:29:49.046Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\types\json.js:86:15)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12) 
+    url - /api/v1/wishlist/24/addBook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T09:30:32.701Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:41:50.431Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token ''', ..." "phone": '123456789"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:42:11.533Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:42:35.890Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-01-22T10:46:09.632Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:10:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:9:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 17:06:12 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":368073.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4812951,"external":8905944,"heapTotal":236429312,"heapUsed":190602440,"rss":281300992},"pid":6500,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:10:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:9:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T11:36:12.958Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":10,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":9,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:10:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:9:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 17:10:56 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":368356.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4813965,"external":8907574,"heapTotal":237740032,"heapUsed":190124344,"rss":283758592},"pid":13016,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:10:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:9:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T11:40:56.129Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":10,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":9,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:10:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:9:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 17:12:56 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":368476.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4812695,"external":8906304,"heapTotal":238264320,"heapUsed":188809056,"rss":286412800},"pid":14416,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:10:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:9:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T11:42:56.312Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":10,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":9,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:11:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:9:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 17:15:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":368602.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4821332,"external":8914941,"heapTotal":238002176,"heapUsed":188463376,"rss":285065216},"pid":8668,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:11:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:9:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T11:45:02.442Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":9,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:69:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:68:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 17:20:36 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":368936.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4813494,"external":8906487,"heapTotal":237477888,"heapUsed":197126008,"rss":284028928},"pid":3088,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:69:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:68:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T11:50:36.127Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":69,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":68,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:71:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:69:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 17:22:14 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":369034.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4821967,"external":8914960,"heapTotal":249012224,"heapUsed":191883936,"rss":299593728},"pid":10680,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:71:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:69:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T11:52:14.273Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":71,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":69,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:7:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 22:19:23 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":386863.562},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4812505,"external":8905498,"heapTotal":232759296,"heapUsed":190201752,"rss":280592384},"pid":11960,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:7:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T16:49:23.327Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":7,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:7:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:6:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 22:25:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":387203.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4812645,"external":8906254,"heapTotal":237477888,"heapUsed":189632280,"rss":283971584},"pid":6732,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:7:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:6:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T16:55:02.790Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":6,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Function.listen (D:\backendWorkSpace\ebookstore\node_modules\express\lib\application.js:635:24)
+    at App.startApp (D:\backendWorkSpace\ebookstore\src\index.ts:69:14)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:9:24
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:4:12)
+    at Context.<anonymous> (D:\backendWorkSpace\ebookstore\tests\integration\test.ts:8:21)
+    at callFn (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:366:21)
+    at Hook.Runnable.run (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runnable.js:354:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:510:10)
+    at Immediate.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\mocha\lib\runner.js:572:5)
+    at processImmediate (node:internal/timers:483:21) {"date":"Wed Jan 22 2025 22:28:50 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":387431.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4820889,"external":8913882,"heapTotal":250060800,"heapUsed":191229896,"rss":297000960},"pid":9640,"uid":null,"version":"v20.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1904:16)\n    at listenInCluster (node:net:1961:12)\n    at Server.listen (node:net:2063:7)\n    at Function.listen (D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (D:\\backendWorkSpace\\ebookstore\\src\\index.ts:69:14)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:9:24\n    at Generator.next (<anonymous>)\n    at D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:4:12)\n    at Context.<anonymous> (D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts:8:21)\n    at callFn (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:366:21)\n    at Hook.Runnable.run (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js:354:5)\n    at next (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:510:10)\n    at Immediate.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js:572:5)\n    at processImmediate (node:internal/timers:483:21)","timestamp":"2025-01-22T16:58:50.851Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1904,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1961,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2063,"method":"listen","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"D:\\backendWorkSpace\\ebookstore\\src\\index.ts","function":"App.startApp","line":69,"method":"startApp","native":false},{"column":24,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":9,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\tests\\integration\\test.ts","function":null,"line":8,"method":null,"native":false},{"column":21,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"callFn","line":366,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runnable.js","function":"Hook.Runnable.run","line":354,"method":"run","native":false},{"column":10,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":"next","line":510,"method":null,"native":false},{"column":5,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\lib\\runner.js","function":null,"line":572,"method":null,"native":false},{"column":21,"file":"node:internal/timers","function":"processImmediate","line":483,"method":null,"native":false}]}
+error: uncaughtException: (no error message)
+AggregateError: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7) {"date":"Wed Jan 22 2025 22:32:33 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":387653.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":148122,"external":3638282,"heapTotal":86450176,"heapUsed":28331264,"rss":122880000},"pid":5284,"uid":null,"version":"v20.17.0"},"stack":"AggregateError: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2025-01-22T17:02:33.036Z","trace":[{"column":18,"file":"node:net","function":"internalConnectMultiple","line":1118,"method":null,"native":false},{"column":7,"file":"node:net","function":"afterConnectMultiple","line":1685,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:14:13.163Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:15:07.587Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:42:16.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:42:38.338Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:43:01.907Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:46:40.809Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:46:40.831Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:48:56.105Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:48:56.121Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:49:45.980Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:54:33.730Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:55:03.289Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T17:56:41.650Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:00:03.713Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:03:19.313Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:05:39.862Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:08:18.605Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:09:53.079Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:11:25.793Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:12:40.566Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:16:44.646Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:21:26.085Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:21:26.104Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:21:26.131Z"}
+error: uncaughtException: (no error message)
+AggregateError: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7) {"date":"Wed Jan 22 2025 23:52:49 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":392469.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":148976,"external":3639136,"heapTotal":85925888,"heapUsed":28226672,"rss":122306560},"pid":1996,"uid":null,"version":"v20.17.0"},"stack":"AggregateError: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2025-01-22T18:22:49.630Z","trace":[{"column":18,"file":"node:net","function":"internalConnectMultiple","line":1118,"method":null,"native":false},{"column":7,"file":"node:net","function":"afterConnectMultiple","line":1685,"method":null,"native":false}]}
+error: uncaughtException: (no error message)
+AggregateError: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7) {"date":"Wed Jan 22 2025 23:54:26 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":392566.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":148118,"external":3511553,"heapTotal":85352448,"heapUsed":53012208,"rss":123392000},"pid":5060,"uid":null,"version":"v20.17.0"},"stack":"AggregateError: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2025-01-22T18:24:26.072Z","trace":[{"column":18,"file":"node:net","function":"internalConnectMultiple","line":1118,"method":null,"native":false},{"column":7,"file":"node:net","function":"afterConnectMultiple","line":1685,"method":null,"native":false}]}
+error: uncaughtException: (no error message)
+AggregateError: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7) {"date":"Wed Jan 22 2025 23:54:37 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":392577.593},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":148118,"external":3507206,"heapTotal":86712320,"heapUsed":28074600,"rss":122064896},"pid":7484,"uid":null,"version":"v20.17.0"},"stack":"AggregateError: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2025-01-22T18:24:37.359Z","trace":[{"column":18,"file":"node:net","function":"internalConnectMultiple","line":1118,"method":null,"native":false},{"column":7,"file":"node:net","function":"afterConnectMultiple","line":1685,"method":null,"native":false}]}
+error: uncaughtException: (no error message)
+AggregateError: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7) {"date":"Wed Jan 22 2025 23:54:50 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":392590.25},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":148122,"external":3638282,"heapTotal":85663744,"heapUsed":28215352,"rss":121651200},"pid":11004,"uid":null,"version":"v20.17.0"},"stack":"AggregateError: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2025-01-22T18:24:50.005Z","trace":[{"column":18,"file":"node:net","function":"internalConnectMultiple","line":1118,"method":null,"native":false},{"column":7,"file":"node:net","function":"afterConnectMultiple","line":1685,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:16.047Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:16.067Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:16.097Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:56.462Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:56.482Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:27:56.512Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:29:31.595Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:29:31.615Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:29:31.648Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {"date":"Wed Jan 22 2025 23:59:42 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":392883.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\backendWorkSpace\\ebookstore\\node_modules\\mocha\\bin\\mocha","--require","ts-node/register","tests/integration/test.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4897514,"external":9014194,"heapTotal":253992960,"heapUsed":223128752,"rss":300359680},"pid":11912,"uid":null,"version":"v20.17.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)","timestamp":"2025-01-22T18:29:42.796Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":218,"method":"onStreamRead","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:31:47.040Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:31:47.060Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:63:17)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at addBookValid (D:\backendWorkSpace\ebookstore\src\validators\cart.validator.ts:15:13)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\backendWorkSpace\ebookstore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:328:13)
+    at D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\index.js:280:10)
+    at D:\backendWorkSpace\ebookstore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:238:16)
+    at done (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\backendWorkSpace\ebookstore\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/4/add_To_Cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:31:47.086Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:32:26.419Z"}
+error: 
+    status - 500 
+    message - ValidationError: "refreshtoken" is required 
+    url - /api/v1/users/refreshtoken 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:32:26.438Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:32:58.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:35:46.748Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:36:09.928Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:39:11.327Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:39:48.052Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:40:51.789Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:41:45.694Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:42:15.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:42:48.602Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:43:20.045Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:44:08.793Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:47:25.166Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:47:59.572Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:49:02.615Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:49:37.487Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:52:58.377Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:53:28.725Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:54:15.640Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:55:44.566Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:56:11.288Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:56:54.405Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:57:27.463Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:58:31.293Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-22T18:59:07.607Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:11:06.348Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:12:20.516Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:12:44.212Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:15:21.217Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:18:11.891Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:23:29.210Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: WHERE parameter "id" has invalid "undefined" value
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.throw (<anonymous>)
+    at rejected (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:39:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:23:29.371Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:25:25.050Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:27:33.036Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 4 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:27:33.197Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:28:06.446Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 4
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:28:06.669Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:02.582Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 5 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/5/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:02.761Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:52.745Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 4
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:29:52.953Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:30:43.607Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 8 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/8/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:30:43.781Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 4
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/4/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:30:43.848Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:31:22.057Z"}
+error: 
+    status - 500 
+    message - Error: There is no book in this wishlist with id 1
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:81:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/1/removeBook 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:31:22.270Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:36:20.625Z"}
+error: 
+    status - 500 
+    message - Error: An error occurred while adding the book: Book with ID 2 is already in the wishlist
+    at WishlistServices.<anonymous> (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:57:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\backendWorkSpace\ebookstore\src\services\wishlist.service.ts:38:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/2/addBook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:36:20.785Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:37:15.349Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2025-01-23T05:38:28.154Z"}
+error: uncaughtException: Connection timeout
+Error: Connection timeout
+    at Socket.<anonymous> (D:\backendWorkSpace\ebookstore\node_modules\@redis\client\dist\lib\client\socket.js:177:124)
+    at Object.onceWrapper (node:events:633:28)
+    at Socket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:591:8)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7) {"date":"Thu Jan 23 2025 12:11:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436796.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"D:\\backendWorkSpace\\ebookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":338322,"external":3509822,"heapTotal":74653696,"heapUsed":44760696,"rss":113631232},"pid":14060,"uid":null,"version":"v20.17.0"},"stack":"Error: Connection timeout\n    at Socket.<anonymous> (D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:177:124)\n    at Object.onceWrapper (node:events:633:28)\n    at Socket.emit (node:events:519:28)\n    at Socket._onTimeout (node:net:591:8)\n    at listOnTimeout (node:internal/timers:581:17)\n    at processTimers (node:internal/timers:519:7)","timestamp":"2025-01-23T06:41:35.951Z","trace":[{"column":124,"file":"D:\\backendWorkSpace\\ebookstore\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":null,"line":177,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":8,"file":"node:net","function":"Socket._onTimeout","line":591,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":581,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":519,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\backendWorkSpace\ebookstore\node_modules\jsonwebtoken\verify.js:94:10)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:15:47
+    at Generator.next (<anonymous>)
+    at D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (D:\backendWorkSpace\ebookstore\src\middlewares\auth.middleware.ts:6:96)
+    at Layer.handle [as handle_request] (D:\backendWorkSpace\ebookstore\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/order/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-01-23T09:28:04.670Z"}

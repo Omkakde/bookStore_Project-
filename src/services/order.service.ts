@@ -7,8 +7,8 @@ import sequelize, { DataTypes } from '../config/database';
 import Order from "../models/order.model";
 import redisClient from "../config/redis";
 import { sendOrderSuccessful } from "../utils/mail.util";
-import Details from "../models/details.model";
-
+import Details from "../models/userDetails.model";
+import { sendToQueue } from "../utils/rabbitMQ";
 export class OrderServies {
     private Cart = Carts(sequelize, DataTypes);
     private Books = Books(sequelize, DataTypes);
@@ -62,7 +62,11 @@ export class OrderServies {
           const order = await this.Orders.create(newOrder);
           await this.Cart.destroy({ where: { user_id: userId } });
           await redisClient.flushAll();
-          await sendOrderSuccessful(req.body.email,order.total_price);
+          const trasformedData={
+            order,
+            email:req.body.email,
+          };
+          await sendToQueue('orderQueue',trasformedData);
           return {
             message: 'Order placed successfully',
             order,
